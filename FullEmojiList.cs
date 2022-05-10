@@ -2,10 +2,10 @@
 namespace System.Text
 {
     /// <summary>
-    /// Full Emoji list (as unicode version 12.1), generated Tue, 04 Feb 2020 16:42:28 GMT.
+    /// Full Emoji list (as unicode version 13.0), generated Tue, 10 May 2022 18:39:20 GMT.
     /// </summary>
     /// <remarks>
-    /// Created from https://unicode.org/Public/emoji/13.0/emoji-test.txt using https://github.com/justdmitry/FullEmojiList generator.
+    /// Created from https://unicode.org/Public/emoji/14.0/emoji-test.txt using https://github.com/justdmitry/FullEmojiList generator.
     /// </remarks>
     public static class Emoji
     {
@@ -31,13 +31,14 @@ namespace System.Text
         public const string SmilingFace = "☺️";
         public const string KissingFaceWithClosedEyes = "😚";
         public const string KissingFaceWithSmilingEyes = "😙";
+        public const string SmilingFaceWithTear = "🥲";
         public const string FaceSavoringFood = "😋";
         public const string FaceWithTongue = "😛";
         public const string WinkingFaceWithTongue = "😜";
         public const string ZanyFace = "🤪";
         public const string SquintingFaceWithTongue = "😝";
         public const string MoneyMouthFace = "🤑";
-        public const string HuggingFace = "🤗";
+        public const string SmilingFaceWithOpenHands = "🤗";
         public const string FaceWithHandOverMouth = "🤭";
         public const string ShushingFace = "🤫";
         public const string ThinkingFace = "🤔";
@@ -65,10 +66,11 @@ namespace System.Text
         public const string HotFace = "🥵";
         public const string ColdFace = "🥶";
         public const string WoozyFace = "🥴";
-        public const string DizzyFace = "😵";
+        public const string FaceWithCrossedOutEyes = "😵";
         public const string ExplodingHead = "🤯";
         public const string CowboyHatFace = "🤠";
         public const string PartyingFace = "🥳";
+        public const string DisguisedFace = "🥸";
         public const string SmilingFaceWithSunglasses = "😎";
         public const string NerdFace = "🤓";
         public const string FaceWithMonocle = "🧐";
@@ -198,6 +200,12 @@ namespace System.Text
         public const string OKHand_MediumSkinTone = "👌🏽";
         public const string OKHand_MediumDarkSkinTone = "👌🏾";
         public const string OKHand_DarkSkinTone = "👌🏿";
+        public const string PinchedFingers = "🤌";
+        public const string PinchedFingers_LightSkinTone = "🤌🏻";
+        public const string PinchedFingers_MediumLightSkinTone = "🤌🏼";
+        public const string PinchedFingers_MediumSkinTone = "🤌🏽";
+        public const string PinchedFingers_MediumDarkSkinTone = "🤌🏾";
+        public const string PinchedFingers_DarkSkinTone = "🤌🏿";
         public const string PinchingHand = "🤏";
         public const string PinchingHand_LightSkinTone = "🤏🏻";
         public const string PinchingHand_MediumLightSkinTone = "🤏🏼";
@@ -331,6 +339,11 @@ namespace System.Text
         public const string PalmsUpTogether_MediumDarkSkinTone = "🤲🏾";
         public const string PalmsUpTogether_DarkSkinTone = "🤲🏿";
         public const string Handshake = "🤝";
+        public const string Handshake_LightSkinTone = "🤝🏻";
+        public const string Handshake_MediumLightSkinTone = "🤝🏼";
+        public const string Handshake_MediumSkinTone = "🤝🏽";
+        public const string Handshake_MediumDarkSkinTone = "🤝🏾";
+        public const string Handshake_DarkSkinTone = "🤝🏿";
         public const string FoldedHands = "🙏";
         public const string FoldedHands_LightSkinTone = "🙏🏻";
         public const string FoldedHands_MediumLightSkinTone = "🙏🏼";
@@ -394,6 +407,8 @@ namespace System.Text
         public const string Nose_MediumDarkSkinTone = "👃🏾";
         public const string Nose_DarkSkinTone = "👃🏿";
         public const string Brain = "🧠";
+        public const string AnatomicalHeart = "🫀";
+        public const string Lungs = "🫁";
         public const string Tooth = "🦷";
         public const string Bone = "🦴";
         public const string Eyes = "👀";
@@ -442,12 +457,12 @@ namespace System.Text
         public const string Man_MediumSkinTone = "👨🏽";
         public const string Man_MediumDarkSkinTone = "👨🏾";
         public const string Man_DarkSkinTone = "👨🏿";
-        public const string Man_Beard = "🧔";
-        public const string Man_LightSkinToneBeard = "🧔🏻";
-        public const string Man_MediumLightSkinToneBeard = "🧔🏼";
-        public const string Man_MediumSkinToneBeard = "🧔🏽";
-        public const string Man_MediumDarkSkinToneBeard = "🧔🏾";
-        public const string Man_DarkSkinToneBeard = "🧔🏿";
+        public const string Person_Beard = "🧔";
+        public const string Person_LightSkinToneBeard = "🧔🏻";
+        public const string Person_MediumLightSkinToneBeard = "🧔🏼";
+        public const string Person_MediumSkinToneBeard = "🧔🏽";
+        public const string Person_MediumDarkSkinToneBeard = "🧔🏾";
+        public const string Person_DarkSkinToneBeard = "🧔🏿";
         public const string Man_RedHair = "👨‍🦰";
         public const string Man_LightSkinToneRedHair = "👨🏻‍🦰";
         public const string Man_MediumLightSkinToneRedHair = "👨🏼‍🦰";
@@ -1078,6 +1093,12 @@ namespace System.Text
         public const string WomanGuard_MediumSkinTone = "💂🏽‍♀️";
         public const string WomanGuard_MediumDarkSkinTone = "💂🏾‍♀️";
         public const string WomanGuard_DarkSkinTone = "💂🏿‍♀️";
+        public const string Ninja = "🥷";
+        public const string Ninja_LightSkinTone = "🥷🏻";
+        public const string Ninja_MediumLightSkinTone = "🥷🏼";
+        public const string Ninja_MediumSkinTone = "🥷🏽";
+        public const string Ninja_MediumDarkSkinTone = "🥷🏾";
+        public const string Ninja_DarkSkinTone = "🥷🏿";
         public const string ConstructionWorker = "👷";
         public const string ConstructionWorker_LightSkinTone = "👷🏻";
         public const string ConstructionWorker_MediumLightSkinTone = "👷🏼";
@@ -1144,12 +1165,36 @@ namespace System.Text
         public const string PersonInTuxedo_MediumSkinTone = "🤵🏽";
         public const string PersonInTuxedo_MediumDarkSkinTone = "🤵🏾";
         public const string PersonInTuxedo_DarkSkinTone = "🤵🏿";
+        public const string ManInTuxedo = "🤵‍♂️";
+        public const string ManInTuxedo_LightSkinTone = "🤵🏻‍♂️";
+        public const string ManInTuxedo_MediumLightSkinTone = "🤵🏼‍♂️";
+        public const string ManInTuxedo_MediumSkinTone = "🤵🏽‍♂️";
+        public const string ManInTuxedo_MediumDarkSkinTone = "🤵🏾‍♂️";
+        public const string ManInTuxedo_DarkSkinTone = "🤵🏿‍♂️";
+        public const string WomanInTuxedo = "🤵‍♀️";
+        public const string WomanInTuxedo_LightSkinTone = "🤵🏻‍♀️";
+        public const string WomanInTuxedo_MediumLightSkinTone = "🤵🏼‍♀️";
+        public const string WomanInTuxedo_MediumSkinTone = "🤵🏽‍♀️";
+        public const string WomanInTuxedo_MediumDarkSkinTone = "🤵🏾‍♀️";
+        public const string WomanInTuxedo_DarkSkinTone = "🤵🏿‍♀️";
         public const string PersonWithVeil = "👰";
         public const string PersonWithVeil_LightSkinTone = "👰🏻";
         public const string PersonWithVeil_MediumLightSkinTone = "👰🏼";
         public const string PersonWithVeil_MediumSkinTone = "👰🏽";
         public const string PersonWithVeil_MediumDarkSkinTone = "👰🏾";
         public const string PersonWithVeil_DarkSkinTone = "👰🏿";
+        public const string ManWithVeil = "👰‍♂️";
+        public const string ManWithVeil_LightSkinTone = "👰🏻‍♂️";
+        public const string ManWithVeil_MediumLightSkinTone = "👰🏼‍♂️";
+        public const string ManWithVeil_MediumSkinTone = "👰🏽‍♂️";
+        public const string ManWithVeil_MediumDarkSkinTone = "👰🏾‍♂️";
+        public const string ManWithVeil_DarkSkinTone = "👰🏿‍♂️";
+        public const string WomanWithVeil = "👰‍♀️";
+        public const string WomanWithVeil_LightSkinTone = "👰🏻‍♀️";
+        public const string WomanWithVeil_MediumLightSkinTone = "👰🏼‍♀️";
+        public const string WomanWithVeil_MediumSkinTone = "👰🏽‍♀️";
+        public const string WomanWithVeil_MediumDarkSkinTone = "👰🏾‍♀️";
+        public const string WomanWithVeil_DarkSkinTone = "👰🏿‍♀️";
         public const string PregnantWoman = "🤰";
         public const string PregnantWoman_LightSkinTone = "🤰🏻";
         public const string PregnantWoman_MediumLightSkinTone = "🤰🏼";
@@ -1162,6 +1207,24 @@ namespace System.Text
         public const string BreastFeeding_MediumSkinTone = "🤱🏽";
         public const string BreastFeeding_MediumDarkSkinTone = "🤱🏾";
         public const string BreastFeeding_DarkSkinTone = "🤱🏿";
+        public const string WomanFeedingBaby = "👩‍🍼";
+        public const string WomanFeedingBaby_LightSkinTone = "👩🏻‍🍼";
+        public const string WomanFeedingBaby_MediumLightSkinTone = "👩🏼‍🍼";
+        public const string WomanFeedingBaby_MediumSkinTone = "👩🏽‍🍼";
+        public const string WomanFeedingBaby_MediumDarkSkinTone = "👩🏾‍🍼";
+        public const string WomanFeedingBaby_DarkSkinTone = "👩🏿‍🍼";
+        public const string ManFeedingBaby = "👨‍🍼";
+        public const string ManFeedingBaby_LightSkinTone = "👨🏻‍🍼";
+        public const string ManFeedingBaby_MediumLightSkinTone = "👨🏼‍🍼";
+        public const string ManFeedingBaby_MediumSkinTone = "👨🏽‍🍼";
+        public const string ManFeedingBaby_MediumDarkSkinTone = "👨🏾‍🍼";
+        public const string ManFeedingBaby_DarkSkinTone = "👨🏿‍🍼";
+        public const string PersonFeedingBaby = "🧑‍🍼";
+        public const string PersonFeedingBaby_LightSkinTone = "🧑🏻‍🍼";
+        public const string PersonFeedingBaby_MediumLightSkinTone = "🧑🏼‍🍼";
+        public const string PersonFeedingBaby_MediumSkinTone = "🧑🏽‍🍼";
+        public const string PersonFeedingBaby_MediumDarkSkinTone = "🧑🏾‍🍼";
+        public const string PersonFeedingBaby_DarkSkinTone = "🧑🏿‍🍼";
         public const string BabyAngel = "👼";
         public const string BabyAngel_LightSkinTone = "👼🏻";
         public const string BabyAngel_MediumLightSkinTone = "👼🏼";
@@ -1180,6 +1243,12 @@ namespace System.Text
         public const string MrsClaus_MediumSkinTone = "🤶🏽";
         public const string MrsClaus_MediumDarkSkinTone = "🤶🏾";
         public const string MrsClaus_DarkSkinTone = "🤶🏿";
+        public const string MxClaus = "🧑‍🎄";
+        public const string MxClaus_LightSkinTone = "🧑🏻‍🎄";
+        public const string MxClaus_MediumLightSkinTone = "🧑🏼‍🎄";
+        public const string MxClaus_MediumSkinTone = "🧑🏽‍🎄";
+        public const string MxClaus_MediumDarkSkinTone = "🧑🏾‍🎄";
+        public const string MxClaus_DarkSkinTone = "🧑🏿‍🎄";
         public const string Superhero = "🦸";
         public const string Superhero_LightSkinTone = "🦸🏻";
         public const string Superhero_MediumLightSkinTone = "🦸🏼";
@@ -1935,6 +2004,7 @@ namespace System.Text
         public const string SpeakingHead = "🗣️";
         public const string BustInSilhouette = "👤";
         public const string BustsInSilhouette = "👥";
+        public const string PeopleHugging = "🫂";
         public const string Footprints = "👣";
         #endregion
 
@@ -1953,6 +2023,7 @@ namespace System.Text
         public const string Raccoon = "🦝";
         public const string CatFace = "🐱";
         public const string Cat = "🐈";
+        public const string BlackCat = "🐈‍⬛";
         public const string Lion = "🦁";
         public const string TigerFace = "🐯";
         public const string Tiger = "🐅";
@@ -1962,6 +2033,7 @@ namespace System.Text
         public const string Unicorn = "🦄";
         public const string Zebra = "🦓";
         public const string Deer = "🦌";
+        public const string Bison = "🦬";
         public const string CowFace = "🐮";
         public const string Ox = "🐂";
         public const string WaterBuffalo = "🐃";
@@ -1978,6 +2050,7 @@ namespace System.Text
         public const string Llama = "🦙";
         public const string Giraffe = "🦒";
         public const string Elephant = "🐘";
+        public const string Mammoth = "🦣";
         public const string Rhinoceros = "🦏";
         public const string Hippopotamus = "🦛";
         public const string MouseFace = "🐭";
@@ -1987,9 +2060,11 @@ namespace System.Text
         public const string RabbitFace = "🐰";
         public const string Rabbit = "🐇";
         public const string Chipmunk = "🐿️";
+        public const string Beaver = "🦫";
         public const string Hedgehog = "🦔";
         public const string Bat = "🦇";
         public const string Bear = "🐻";
+        public const string PolarBear = "🐻‍❄️";
         public const string Koala = "🐨";
         public const string Panda = "🐼";
         public const string Sloth = "🦥";
@@ -2011,6 +2086,8 @@ namespace System.Text
         public const string Duck = "🦆";
         public const string Swan = "🦢";
         public const string Owl = "🦉";
+        public const string Dodo = "🦤";
+        public const string Feather = "🪶";
         public const string Flamingo = "🦩";
         public const string Peacock = "🦚";
         public const string Parrot = "🦜";
@@ -2026,6 +2103,7 @@ namespace System.Text
         public const string SpoutingWhale = "🐳";
         public const string Whale = "🐋";
         public const string Dolphin = "🐬";
+        public const string Seal = "🦭";
         public const string Fish = "🐟";
         public const string TropicalFish = "🐠";
         public const string Blowfish = "🐡";
@@ -2037,12 +2115,16 @@ namespace System.Text
         public const string Bug = "🐛";
         public const string Ant = "🐜";
         public const string Honeybee = "🐝";
+        public const string Beetle = "🪲";
         public const string LadyBeetle = "🐞";
         public const string Cricket = "🦗";
+        public const string Cockroach = "🪳";
         public const string Spider = "🕷️";
         public const string SpiderWeb = "🕸️";
         public const string Scorpion = "🦂";
         public const string Mosquito = "🦟";
+        public const string Fly = "🪰";
+        public const string Worm = "🪱";
         public const string Microbe = "🦠";
         public const string Bouquet = "💐";
         public const string CherryBlossom = "🌸";
@@ -2055,6 +2137,7 @@ namespace System.Text
         public const string Blossom = "🌼";
         public const string Tulip = "🌷";
         public const string Seedling = "🌱";
+        public const string PottedPlant = "🪴";
         public const string EvergreenTree = "🌲";
         public const string DeciduousTree = "🌳";
         public const string PalmTree = "🌴";
@@ -2083,8 +2166,10 @@ namespace System.Text
         public const string Peach = "🍑";
         public const string Cherries = "🍒";
         public const string Strawberry = "🍓";
+        public const string Blueberries = "🫐";
         public const string KiwiFruit = "🥝";
         public const string Tomato = "🍅";
+        public const string Olive = "🫒";
         public const string Coconut = "🥥";
         public const string Avocado = "🥑";
         public const string Eggplant = "🍆";
@@ -2092,6 +2177,7 @@ namespace System.Text
         public const string Carrot = "🥕";
         public const string EarOfCorn = "🌽";
         public const string HotPepper = "🌶️";
+        public const string BellPepper = "🫑";
         public const string Cucumber = "🥒";
         public const string LeafyGreen = "🥬";
         public const string Broccoli = "🥦";
@@ -2103,6 +2189,7 @@ namespace System.Text
         public const string Bread = "🍞";
         public const string Croissant = "🥐";
         public const string BaguetteBread = "🥖";
+        public const string Flatbread = "🫓";
         public const string Pretzel = "🥨";
         public const string Bagel = "🥯";
         public const string Pancakes = "🥞";
@@ -2119,12 +2206,14 @@ namespace System.Text
         public const string Sandwich = "🥪";
         public const string Taco = "🌮";
         public const string Burrito = "🌯";
+        public const string Tamale = "🫔";
         public const string StuffedFlatbread = "🥙";
         public const string Falafel = "🧆";
         public const string Egg = "🥚";
         public const string Cooking = "🍳";
         public const string ShallowPanOfFood = "🥘";
         public const string PotOfFood = "🍲";
+        public const string Fondue = "🫕";
         public const string BowlWithSpoon = "🥣";
         public const string GreenSalad = "🥗";
         public const string Popcorn = "🍿";
@@ -2170,6 +2259,7 @@ namespace System.Text
         public const string BabyBottle = "🍼";
         public const string GlassOfMilk = "🥛";
         public const string HotBeverage = "☕";
+        public const string Teapot = "🫖";
         public const string TeacupWithoutHandle = "🍵";
         public const string Sake = "🍶";
         public const string BottleWithPoppingCork = "🍾";
@@ -2181,6 +2271,7 @@ namespace System.Text
         public const string ClinkingGlasses = "🥂";
         public const string TumblerGlass = "🥃";
         public const string CupWithStraw = "🥤";
+        public const string BubbleTea = "🧋";
         public const string BeverageBox = "🧃";
         public const string Mate = "🧉";
         public const string Ice = "🧊";
@@ -2213,6 +2304,9 @@ namespace System.Text
         public const string ClassicalBuilding = "🏛️";
         public const string BuildingConstruction = "🏗️";
         public const string Brick = "🧱";
+        public const string Rock = "🪨";
+        public const string Wood = "🪵";
+        public const string Hut = "🛖";
         public const string Houses = "🏘️";
         public const string DerelictHouse = "🏚️";
         public const string House = "🏠";
@@ -2280,6 +2374,7 @@ namespace System.Text
         public const string Automobile = "🚗";
         public const string OncomingAutomobile = "🚘";
         public const string SportUtilityVehicle = "🚙";
+        public const string PickupTruck = "🛻";
         public const string DeliveryTruck = "🚚";
         public const string ArticulatedLorry = "🚛";
         public const string Tractor = "🚜";
@@ -2292,6 +2387,7 @@ namespace System.Text
         public const string Bicycle = "🚲";
         public const string KickScooter = "🛴";
         public const string Skateboard = "🛹";
+        public const string RollerSkate = "🛼";
         public const string BusStop = "🚏";
         public const string Motorway = "🛣️";
         public const string RailwayTrack = "🛤️";
@@ -2460,11 +2556,12 @@ namespace System.Text
         public const string Skis = "🎿";
         public const string Sled = "🛷";
         public const string CurlingStone = "🥌";
-        public const string DirectHit = "🎯";
+        public const string Bullseye = "🎯";
         public const string YoYo = "🪀";
         public const string Kite = "🪁";
         public const string Pool8Ball = "🎱";
         public const string CrystalBall = "🔮";
+        public const string MagicWand = "🪄";
         public const string NazarAmulet = "🧿";
         public const string VideoGame = "🎮";
         public const string Joystick = "🕹️";
@@ -2472,6 +2569,8 @@ namespace System.Text
         public const string GameDie = "🎲";
         public const string PuzzlePiece = "🧩";
         public const string TeddyBear = "🧸";
+        public const string Piñata = "🪅";
+        public const string NestingDolls = "🪆";
         public const string SpadeSuit = "♠️";
         public const string HeartSuit = "♥️";
         public const string DiamondSuit = "♦️";
@@ -2484,7 +2583,9 @@ namespace System.Text
         public const string FramedPicture = "🖼️";
         public const string ArtistPalette = "🎨";
         public const string Thread = "🧵";
+        public const string SewingNeedle = "🪡";
         public const string Yarn = "🧶";
+        public const string Knot = "🪢";
         #endregion
 
         #region Objects
@@ -2513,6 +2614,7 @@ namespace System.Text
         public const string ClutchBag = "👝";
         public const string ShoppingBags = "🛍️";
         public const string Backpack = "🎒";
+        public const string ThongSandal = "🩴";
         public const string MansShoe = "👞";
         public const string RunningShoe = "👟";
         public const string HikingBoot = "🥾";
@@ -2526,6 +2628,7 @@ namespace System.Text
         public const string TopHat = "🎩";
         public const string GraduationCap = "🎓";
         public const string BilledCap = "🧢";
+        public const string MilitaryHelmet = "🪖";
         public const string RescueWorkersHelmet = "⛑️";
         public const string PrayerBeads = "📿";
         public const string Lipstick = "💄";
@@ -2550,12 +2653,14 @@ namespace System.Text
         public const string Headphone = "🎧";
         public const string Radio = "📻";
         public const string Saxophone = "🎷";
+        public const string Accordion = "🪗";
         public const string Guitar = "🎸";
         public const string MusicalKeyboard = "🎹";
         public const string Trumpet = "🎺";
         public const string Violin = "🎻";
         public const string Banjo = "🪕";
         public const string Drum = "🥁";
+        public const string LongDrum = "🪘";
         public const string MobilePhone = "📱";
         public const string MobilePhoneWithArrow = "📲";
         public const string Telephone = "☎️";
@@ -2609,6 +2714,7 @@ namespace System.Text
         public const string Bookmark = "🔖";
         public const string Label = "🏷️";
         public const string MoneyBag = "💰";
+        public const string Coin = "🪙";
         public const string YenBanknote = "💴";
         public const string DollarBanknote = "💵";
         public const string EuroBanknote = "💶";
@@ -2673,10 +2779,13 @@ namespace System.Text
         public const string HammerAndWrench = "🛠️";
         public const string Dagger = "🗡️";
         public const string CrossedSwords = "⚔️";
-        public const string Pistol = "🔫";
+        public const string WaterPistol = "🔫";
+        public const string Boomerang = "🪃";
         public const string BowAndArrow = "🏹";
         public const string Shield = "🛡️";
+        public const string CarpentrySaw = "🪚";
         public const string Wrench = "🔧";
+        public const string Screwdriver = "🪛";
         public const string NutAndBolt = "🔩";
         public const string Gear = "⚙️";
         public const string Clamp = "🗜️";
@@ -2684,8 +2793,10 @@ namespace System.Text
         public const string WhiteCane = "🦯";
         public const string Link = "🔗";
         public const string Chains = "⛓️";
+        public const string Hook = "🪝";
         public const string Toolbox = "🧰";
         public const string Magnet = "🧲";
+        public const string Ladder = "🪜";
         public const string Alembic = "⚗️";
         public const string TestTube = "🧪";
         public const string PetriDish = "🧫";
@@ -2699,26 +2810,35 @@ namespace System.Text
         public const string AdhesiveBandage = "🩹";
         public const string Stethoscope = "🩺";
         public const string Door = "🚪";
+        public const string Elevator = "🛗";
+        public const string Mirror = "🪞";
+        public const string Window = "🪟";
         public const string Bed = "🛏️";
         public const string CouchAndLamp = "🛋️";
         public const string Chair = "🪑";
         public const string Toilet = "🚽";
+        public const string Plunger = "🪠";
         public const string Shower = "🚿";
         public const string Bathtub = "🛁";
+        public const string MouseTrap = "🪤";
         public const string Razor = "🪒";
         public const string LotionBottle = "🧴";
         public const string SafetyPin = "🧷";
         public const string Broom = "🧹";
         public const string Basket = "🧺";
         public const string RollOfPaper = "🧻";
+        public const string Bucket = "🪣";
         public const string Soap = "🧼";
+        public const string Toothbrush = "🪥";
         public const string Sponge = "🧽";
         public const string FireExtinguisher = "🧯";
         public const string ShoppingCart = "🛒";
         public const string Cigarette = "🚬";
         public const string Coffin = "⚰️";
+        public const string Headstone = "🪦";
         public const string FuneralUrn = "⚱️";
         public const string Moai = "🗿";
+        public const string Placard = "🪧";
         #endregion
 
         #region Symbols
@@ -2820,6 +2940,7 @@ namespace System.Text
         public const string MobilePhoneOff = "📴";
         public const string FemaleSign = "♀️";
         public const string MaleSign = "♂️";
+        public const string TransgenderSymbol = "⚧️";
         public const string Multiply = "✖️";
         public const string Plus = "➕";
         public const string Minus = "➖";
@@ -2827,10 +2948,10 @@ namespace System.Text
         public const string Infinity = "♾️";
         public const string DoubleExclamationMark = "‼️";
         public const string ExclamationQuestionMark = "⁉️";
-        public const string QuestionMark = "❓";
+        public const string RedQuestionMark = "❓";
         public const string WhiteQuestionMark = "❔";
         public const string WhiteExclamationMark = "❕";
-        public const string ExclamationMark = "❗";
+        public const string RedExclamationMark = "❗";
         public const string WavyDash = "〰️";
         public const string CurrencyExchange = "💱";
         public const string HeavyDollarSign = "💲";
@@ -2950,6 +3071,7 @@ namespace System.Text
         public const string BlackFlag = "🏴";
         public const string WhiteFlag = "🏳️";
         public const string RainbowFlag = "🏳️‍🌈";
+        public const string TransgenderFlag = "🏳️‍⚧️";
         public const string PirateFlag = "🏴‍☠️";
         public const string Flag_AscensionIsland = "🇦🇨";
         public const string Flag_Andorra = "🇦🇩";

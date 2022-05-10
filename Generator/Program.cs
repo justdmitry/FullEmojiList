@@ -13,12 +13,12 @@
         /// <summary>
         /// Source URL of Unicode emoji text file.
         /// </summary>
-        private const string SourceUrl = "https://unicode.org/Public/emoji/13.0/emoji-test.txt";
+        private const string SourceUrl = "https://unicode.org/Public/emoji/14.0/emoji-test.txt";
 
         /// <summary>
         /// Maximum emoji version to include in output file (last version is probably not supported by browsers/fonts yet).
         /// </summary>
-        private const float MaxVersion = 12.1F;
+        private const float MaxVersion = 13.0F;
 
         /// <summary>
         /// Output .cs file name/location.
