@@ -13,7 +13,7 @@ var greeting = $"Hello, {Emoji.WorldMap}"; // value is "Hello, 🗺️"
 
 ## Generator
 
-.NET Core 3.1 console app to [re]generate emoji file.
+.NET 6.0 console app to [re]generate emoji file.
 
 Useful options (located directly in `Program.cs` file):
 
