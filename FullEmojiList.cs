@@ -2,10 +2,10 @@
 namespace System.Text
 {
     /// <summary>
-    /// Emoji list (from Unicode version 14.0).
+    /// Emoji list (from Unicode version 15.0).
     /// </summary>
     /// <remarks>
-    /// Created from <see href="https://unicode.org/Public/emoji/latest/emoji-test.txt"/> using <see href="https://github.com/justdmitry/FullEmojiList"/> generator at Thu, 19 Dec 2024 13:24:14 GMT.
+    /// Created from <see href="https://unicode.org/Public/emoji/latest/emoji-test.txt"/> using <see href="https://github.com/justdmitry/FullEmojiList"/> generator at Thu, 19 Dec 2024 13:45:23 GMT.
     /// </remarks>
     public static class Emoji
     {
@@ -59,6 +59,7 @@ namespace System.Text
         public const string GrimacingFace = "😬";
         public const string FaceExhaling = "😮‍💨";
         public const string LyingFace = "🤥";
+        public const string ShakingFace = "🫨";
         public const string RelievedFace = "😌";
         public const string PensiveFace = "😔";
         public const string SleepyFace = "😪";
@@ -150,13 +151,16 @@ namespace System.Text
         public const string HeartOnFire = "❤️‍🔥";
         public const string MendingHeart = "❤️‍🩹";
         public const string RedHeart = "❤️";
+        public const string PinkHeart = "🩷";
         public const string OrangeHeart = "🧡";
         public const string YellowHeart = "💛";
         public const string GreenHeart = "💚";
         public const string BlueHeart = "💙";
+        public const string LightBlueHeart = "🩵";
         public const string PurpleHeart = "💜";
         public const string BrownHeart = "🤎";
         public const string BlackHeart = "🖤";
+        public const string GreyHeart = "🩶";
         public const string WhiteHeart = "🤍";
         public const string KissMark = "💋";
         public const string HundredPoints = "💯";
@@ -229,6 +233,18 @@ namespace System.Text
         public const string PalmUpHand_MediumSkinTone = "🫴🏽";
         public const string PalmUpHand_MediumDarkSkinTone = "🫴🏾";
         public const string PalmUpHand_DarkSkinTone = "🫴🏿";
+        public const string LeftwardsPushingHand = "🫷";
+        public const string LeftwardsPushingHand_LightSkinTone = "🫷🏻";
+        public const string LeftwardsPushingHand_MediumLightSkinTone = "🫷🏼";
+        public const string LeftwardsPushingHand_MediumSkinTone = "🫷🏽";
+        public const string LeftwardsPushingHand_MediumDarkSkinTone = "🫷🏾";
+        public const string LeftwardsPushingHand_DarkSkinTone = "🫷🏿";
+        public const string RightwardsPushingHand = "🫸";
+        public const string RightwardsPushingHand_LightSkinTone = "🫸🏻";
+        public const string RightwardsPushingHand_MediumLightSkinTone = "🫸🏼";
+        public const string RightwardsPushingHand_MediumSkinTone = "🫸🏽";
+        public const string RightwardsPushingHand_MediumDarkSkinTone = "🫸🏾";
+        public const string RightwardsPushingHand_DarkSkinTone = "🫸🏿";
         public const string OKHand = "👌";
         public const string OKHand_LightSkinTone = "👌🏻";
         public const string OKHand_MediumLightSkinTone = "👌🏼";
@@ -2334,6 +2350,8 @@ namespace System.Text
         public const string Tiger = "🐅";
         public const string Leopard = "🐆";
         public const string HorseFace = "🐴";
+        public const string Moose = "🫎";
+        public const string Donkey = "🫏";
         public const string Horse = "🐎";
         public const string Unicorn = "🦄";
         public const string Zebra = "🦓";
@@ -2396,6 +2414,9 @@ namespace System.Text
         public const string Flamingo = "🦩";
         public const string Peacock = "🦚";
         public const string Parrot = "🦜";
+        public const string Wing = "🪽";
+        public const string BlackBird = "🐦‍⬛";
+        public const string Goose = "🪿";
         public const string Frog = "🐸";
         public const string Crocodile = "🐊";
         public const string Turtle = "🐢";
@@ -2416,6 +2437,7 @@ namespace System.Text
         public const string Octopus = "🐙";
         public const string SpiralShell = "🐚";
         public const string Coral = "🪸";
+        public const string Jellyfish = "🪼";
         public const string Crab = "🦀";
         public const string Lobster = "🦞";
         public const string Shrimp = "🦐";
@@ -2448,6 +2470,7 @@ namespace System.Text
         public const string Sunflower = "🌻";
         public const string Blossom = "🌼";
         public const string Tulip = "🌷";
+        public const string Hyacinth = "🪻";
         public const string Seedling = "🌱";
         public const string PottedPlant = "🪴";
         public const string EvergreenTree = "🌲";
@@ -2501,6 +2524,8 @@ namespace System.Text
         public const string Peanuts = "🥜";
         public const string Beans = "🫘";
         public const string Chestnut = "🌰";
+        public const string GingerRoot = "🫚";
+        public const string PeaPod = "🫛";
         public const string Bread = "🍞";
         public const string Croissant = "🥐";
         public const string BaguetteBread = "🥖";
@@ -2925,6 +2950,7 @@ namespace System.Text
         public const string Shorts = "🩳";
         public const string Bikini = "👙";
         public const string WomansClothes = "👚";
+        public const string FoldingHandFan = "🪭";
         public const string Purse = "👛";
         public const string Handbag = "👜";
         public const string ClutchBag = "👝";
@@ -2939,6 +2965,7 @@ namespace System.Text
         public const string WomansSandal = "👡";
         public const string BalletShoes = "🩰";
         public const string WomansBoot = "👢";
+        public const string HairPick = "🪮";
         public const string Crown = "👑";
         public const string WomansHat = "👒";
         public const string TopHat = "🎩";
@@ -2977,6 +3004,8 @@ namespace System.Text
         public const string Banjo = "🪕";
         public const string Drum = "🥁";
         public const string LongDrum = "🪘";
+        public const string Maracas = "🪇";
+        public const string Flute = "🪈";
         public const string MobilePhone = "📱";
         public const string MobilePhoneWithArrow = "📲";
         public const string Telephone = "☎️";
@@ -3224,6 +3253,7 @@ namespace System.Text
         public const string PeaceSymbol = "☮️";
         public const string Menorah = "🕎";
         public const string DottedSixPointedStar = "🔯";
+        public const string Khanda = "🪯";
         public const string Aries = "♈";
         public const string Taurus = "♉";
         public const string Gemini = "♊";
@@ -3259,6 +3289,7 @@ namespace System.Text
         public const string DimButton = "🔅";
         public const string BrightButton = "🔆";
         public const string AntennaBars = "📶";
+        public const string Wireless = "🛜";
         public const string VibrationMode = "📳";
         public const string MobilePhoneOff = "📴";
         public const string FemaleSign = "♀️";

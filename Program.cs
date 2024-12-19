@@ -18,7 +18,7 @@
         /// <summary>
         /// Maximum emoji version to include in output file (last version is probably not supported by browsers/fonts yet).
         /// </summary>
-        private const float MaxVersion = 14.0F;
+        private const float MaxVersion = 15.0F;
 
         /// <summary>
         /// Output .cs file name/location.
