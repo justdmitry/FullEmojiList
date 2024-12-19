@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>FullEmojiList</id>
+    <version>13.0.0</version>
+    <description>Auto-generated C# file with all Unicode emoji.</description>
+    <authors>just_dmitry</authors>
+    <projectUrl>https://github.com/justdmitry/FullEmojiList</projectUrl>
+    <license type="expression">MIT</license>
+    <!--<icon></icon>-->
+    <readme>README.md</readme>
+    <releaseNotes>Full Emoji list (from Unicode version 13.0).</releaseNotes>
+    <copyright>© Dmitry Popov, 2020-2024</copyright>
+    <tags>emoji list unicode</tags>
+    <repository type="git" url="https://github.com/justdmitry/FullEmojiList.git" />
+    <contentFiles>
+      <files include="any/any/FullEmojiList.cs" buildAction="Compile" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="README.md" target="" />
+    <file src="FullEmojiList.cs" target="contentFiles/any/any/" />
+  </files>
+</package>
