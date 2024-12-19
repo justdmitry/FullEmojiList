@@ -2,17 +2,22 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>FullEmojiList</id>
-    <version>13.0.0</version>
+    <version>14.0.0</version>
     <description>Auto-generated C# file with all Unicode emoji.</description>
     <authors>just_dmitry</authors>
     <projectUrl>https://github.com/justdmitry/FullEmojiList</projectUrl>
     <license type="expression">MIT</license>
     <!--<icon></icon>-->
     <readme>README.md</readme>
-    <releaseNotes>Full Emoji list (from Unicode version 13.0).</releaseNotes>
+    <releaseNotes>Emoji list updated to Unicode version 14.0.</releaseNotes>
     <copyright>© Dmitry Popov, 2020-2024</copyright>
     <tags>emoji list unicode</tags>
     <repository type="git" url="https://github.com/justdmitry/FullEmojiList.git" />
+    <!--<dependencies>
+      <group targetFramework="netstandard2.0"/>
+      <group targetFramework="net45"/>
+      <group targetFramework="net6.0"/>
+    </dependencies>-->
     <contentFiles>
       <files include="any/any/FullEmojiList.cs" buildAction="Compile" />
     </contentFiles>

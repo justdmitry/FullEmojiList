@@ -13,17 +13,17 @@
         /// <summary>
         /// Source URL of Unicode emoji text file.
         /// </summary>
-        private const string SourceUrl = "https://unicode.org/Public/emoji/14.0/emoji-test.txt";
+        private const string SourceUrl = "https://unicode.org/Public/emoji/latest/emoji-test.txt";
 
         /// <summary>
         /// Maximum emoji version to include in output file (last version is probably not supported by browsers/fonts yet).
         /// </summary>
-        private const float MaxVersion = 13.0F;
+        private const float MaxVersion = 14.0F;
 
         /// <summary>
         /// Output .cs file name/location.
         /// </summary>
-        private const string OutFile = "./../FullEmojiList.cs";
+        private const string OutFile = "FullEmojiList.cs";
 
         /// <summary>
         /// Set to 'true' to generate long names like `SmileysAndEmotion_GrinningFace` (instead of `GrinningFace`).
@@ -67,10 +67,10 @@
             await destination.WriteLineAsync("{");
 
             await destination.WriteLineAsync("    /// <summary>");
-            await destination.WriteLineAsync($"    /// Full Emoji list (as unicode version {MaxVersion:0.0}), generated {DateTimeOffset.UtcNow:R}.");
+            await destination.WriteLineAsync($"    /// Emoji list (from Unicode version {MaxVersion:0.0}).");
             await destination.WriteLineAsync("    /// </summary>");
             await destination.WriteLineAsync("    /// <remarks>");
-            await destination.WriteLineAsync($"    /// Created from {SourceUrl} using https://github.com/justdmitry/FullEmojiList generator.");
+            await destination.WriteLineAsync($"    /// Created from <see href=\"{SourceUrl}\"/> using <see href=\"https://github.com/justdmitry/FullEmojiList\"/> generator at {DateTimeOffset.UtcNow:R}.");
             await destination.WriteLineAsync("    /// </remarks>");
             await destination.WriteLineAsync("    public static class Emoji");
             await destination.WriteLineAsync("    {");
