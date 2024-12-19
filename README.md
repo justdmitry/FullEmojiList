@@ -10,7 +10,7 @@ var greeting = $"Hello, {Emoji.WorldMap}"; // value is "Hello, 🗺️"
 
 **Attention!** Always check that your messages are correctly displayed in all required browsers and devices! Some systems/fonts may not (yet) have some new emoji, so you'll need to choose other emoji. Downgrade to older file/package version to have emojis from previous Unicode versions only.
 
-[![NuGet](https://img.shields.io/nuget/v/FullEmojiList.svg?maxAge=86400&style=flat)](https://www.nuget.org/packages/FullEmojiList/) ![Unicode v14.0](https://img.shields.io/badge/Unicode-v14.0-5d57ff?style=flat) ![.NET Any](https://img.shields.io/badge/.NET-Any_version%21-512BD4?style=flat)
+[![NuGet](https://img.shields.io/nuget/v/FullEmojiList.svg?maxAge=86400&style=flat)](https://www.nuget.org/packages/FullEmojiList/) ![Unicode v15.1](https://img.shields.io/badge/Unicode-v15.1-5d57ff?style=flat) ![.NET Any](https://img.shields.io/badge/.NET-Any_version%21-512BD4?style=flat)
 
 
 ## Generator
