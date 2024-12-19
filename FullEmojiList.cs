@@ -2,10 +2,10 @@
 namespace System.Text
 {
     /// <summary>
-    /// Emoji list (from Unicode version 15.0).
+    /// Emoji list (from Unicode version 15.1).
     /// </summary>
     /// <remarks>
-    /// Created from <see href="https://unicode.org/Public/emoji/latest/emoji-test.txt"/> using <see href="https://github.com/justdmitry/FullEmojiList"/> generator at Thu, 19 Dec 2024 13:45:23 GMT.
+    /// Created from <see href="https://unicode.org/Public/emoji/latest/emoji-test.txt"/> using <see href="https://github.com/justdmitry/FullEmojiList"/> generator at Thu, 19 Dec 2024 13:50:00 GMT.
     /// </remarks>
     public static class Emoji
     {
@@ -60,6 +60,8 @@ namespace System.Text
         public const string FaceExhaling = "😮‍💨";
         public const string LyingFace = "🤥";
         public const string ShakingFace = "🫨";
+        public const string HeadShakingHorizontally = "🙂‍↔️";
+        public const string HeadShakingVertically = "🙂‍↕️";
         public const string RelievedFace = "😌";
         public const string PensiveFace = "😔";
         public const string SleepyFace = "😪";
@@ -1556,6 +1558,24 @@ namespace System.Text
         public const string WomanWalking_MediumSkinTone = "🚶🏽‍♀️";
         public const string WomanWalking_MediumDarkSkinTone = "🚶🏾‍♀️";
         public const string WomanWalking_DarkSkinTone = "🚶🏿‍♀️";
+        public const string PersonWalkingFacingRight = "🚶‍➡️";
+        public const string PersonWalkingFacingRight_LightSkinTone = "🚶🏻‍➡️";
+        public const string PersonWalkingFacingRight_MediumLightSkinTone = "🚶🏼‍➡️";
+        public const string PersonWalkingFacingRight_MediumSkinTone = "🚶🏽‍➡️";
+        public const string PersonWalkingFacingRight_MediumDarkSkinTone = "🚶🏾‍➡️";
+        public const string PersonWalkingFacingRight_DarkSkinTone = "🚶🏿‍➡️";
+        public const string WomanWalkingFacingRight = "🚶‍♀️‍➡️";
+        public const string WomanWalkingFacingRight_LightSkinTone = "🚶🏻‍♀️‍➡️";
+        public const string WomanWalkingFacingRight_MediumLightSkinTone = "🚶🏼‍♀️‍➡️";
+        public const string WomanWalkingFacingRight_MediumSkinTone = "🚶🏽‍♀️‍➡️";
+        public const string WomanWalkingFacingRight_MediumDarkSkinTone = "🚶🏾‍♀️‍➡️";
+        public const string WomanWalkingFacingRight_DarkSkinTone = "🚶🏿‍♀️‍➡️";
+        public const string ManWalkingFacingRight = "🚶‍♂️‍➡️";
+        public const string ManWalkingFacingRight_LightSkinTone = "🚶🏻‍♂️‍➡️";
+        public const string ManWalkingFacingRight_MediumLightSkinTone = "🚶🏼‍♂️‍➡️";
+        public const string ManWalkingFacingRight_MediumSkinTone = "🚶🏽‍♂️‍➡️";
+        public const string ManWalkingFacingRight_MediumDarkSkinTone = "🚶🏾‍♂️‍➡️";
+        public const string ManWalkingFacingRight_DarkSkinTone = "🚶🏿‍♂️‍➡️";
         public const string PersonStanding = "🧍";
         public const string PersonStanding_LightSkinTone = "🧍🏻";
         public const string PersonStanding_MediumLightSkinTone = "🧍🏼";
@@ -1592,60 +1612,132 @@ namespace System.Text
         public const string WomanKneeling_MediumSkinTone = "🧎🏽‍♀️";
         public const string WomanKneeling_MediumDarkSkinTone = "🧎🏾‍♀️";
         public const string WomanKneeling_DarkSkinTone = "🧎🏿‍♀️";
+        public const string PersonKneelingFacingRight = "🧎‍➡️";
+        public const string PersonKneelingFacingRight_LightSkinTone = "🧎🏻‍➡️";
+        public const string PersonKneelingFacingRight_MediumLightSkinTone = "🧎🏼‍➡️";
+        public const string PersonKneelingFacingRight_MediumSkinTone = "🧎🏽‍➡️";
+        public const string PersonKneelingFacingRight_MediumDarkSkinTone = "🧎🏾‍➡️";
+        public const string PersonKneelingFacingRight_DarkSkinTone = "🧎🏿‍➡️";
+        public const string WomanKneelingFacingRight = "🧎‍♀️‍➡️";
+        public const string WomanKneelingFacingRight_LightSkinTone = "🧎🏻‍♀️‍➡️";
+        public const string WomanKneelingFacingRight_MediumLightSkinTone = "🧎🏼‍♀️‍➡️";
+        public const string WomanKneelingFacingRight_MediumSkinTone = "🧎🏽‍♀️‍➡️";
+        public const string WomanKneelingFacingRight_MediumDarkSkinTone = "🧎🏾‍♀️‍➡️";
+        public const string WomanKneelingFacingRight_DarkSkinTone = "🧎🏿‍♀️‍➡️";
+        public const string ManKneelingFacingRight = "🧎‍♂️‍➡️";
+        public const string ManKneelingFacingRight_LightSkinTone = "🧎🏻‍♂️‍➡️";
+        public const string ManKneelingFacingRight_MediumLightSkinTone = "🧎🏼‍♂️‍➡️";
+        public const string ManKneelingFacingRight_MediumSkinTone = "🧎🏽‍♂️‍➡️";
+        public const string ManKneelingFacingRight_MediumDarkSkinTone = "🧎🏾‍♂️‍➡️";
+        public const string ManKneelingFacingRight_DarkSkinTone = "🧎🏿‍♂️‍➡️";
         public const string PersonWithWhiteCane = "🧑‍🦯";
         public const string PersonWithWhiteCane_LightSkinTone = "🧑🏻‍🦯";
         public const string PersonWithWhiteCane_MediumLightSkinTone = "🧑🏼‍🦯";
         public const string PersonWithWhiteCane_MediumSkinTone = "🧑🏽‍🦯";
         public const string PersonWithWhiteCane_MediumDarkSkinTone = "🧑🏾‍🦯";
         public const string PersonWithWhiteCane_DarkSkinTone = "🧑🏿‍🦯";
+        public const string PersonWithWhiteCaneFacingRight = "🧑‍🦯‍➡️";
+        public const string PersonWithWhiteCaneFacingRight_LightSkinTone = "🧑🏻‍🦯‍➡️";
+        public const string PersonWithWhiteCaneFacingRight_MediumLightSkinTone = "🧑🏼‍🦯‍➡️";
+        public const string PersonWithWhiteCaneFacingRight_MediumSkinTone = "🧑🏽‍🦯‍➡️";
+        public const string PersonWithWhiteCaneFacingRight_MediumDarkSkinTone = "🧑🏾‍🦯‍➡️";
+        public const string PersonWithWhiteCaneFacingRight_DarkSkinTone = "🧑🏿‍🦯‍➡️";
         public const string ManWithWhiteCane = "👨‍🦯";
         public const string ManWithWhiteCane_LightSkinTone = "👨🏻‍🦯";
         public const string ManWithWhiteCane_MediumLightSkinTone = "👨🏼‍🦯";
         public const string ManWithWhiteCane_MediumSkinTone = "👨🏽‍🦯";
         public const string ManWithWhiteCane_MediumDarkSkinTone = "👨🏾‍🦯";
         public const string ManWithWhiteCane_DarkSkinTone = "👨🏿‍🦯";
+        public const string ManWithWhiteCaneFacingRight = "👨‍🦯‍➡️";
+        public const string ManWithWhiteCaneFacingRight_LightSkinTone = "👨🏻‍🦯‍➡️";
+        public const string ManWithWhiteCaneFacingRight_MediumLightSkinTone = "👨🏼‍🦯‍➡️";
+        public const string ManWithWhiteCaneFacingRight_MediumSkinTone = "👨🏽‍🦯‍➡️";
+        public const string ManWithWhiteCaneFacingRight_MediumDarkSkinTone = "👨🏾‍🦯‍➡️";
+        public const string ManWithWhiteCaneFacingRight_DarkSkinTone = "👨🏿‍🦯‍➡️";
         public const string WomanWithWhiteCane = "👩‍🦯";
         public const string WomanWithWhiteCane_LightSkinTone = "👩🏻‍🦯";
         public const string WomanWithWhiteCane_MediumLightSkinTone = "👩🏼‍🦯";
         public const string WomanWithWhiteCane_MediumSkinTone = "👩🏽‍🦯";
         public const string WomanWithWhiteCane_MediumDarkSkinTone = "👩🏾‍🦯";
         public const string WomanWithWhiteCane_DarkSkinTone = "👩🏿‍🦯";
+        public const string WomanWithWhiteCaneFacingRight = "👩‍🦯‍➡️";
+        public const string WomanWithWhiteCaneFacingRight_LightSkinTone = "👩🏻‍🦯‍➡️";
+        public const string WomanWithWhiteCaneFacingRight_MediumLightSkinTone = "👩🏼‍🦯‍➡️";
+        public const string WomanWithWhiteCaneFacingRight_MediumSkinTone = "👩🏽‍🦯‍➡️";
+        public const string WomanWithWhiteCaneFacingRight_MediumDarkSkinTone = "👩🏾‍🦯‍➡️";
+        public const string WomanWithWhiteCaneFacingRight_DarkSkinTone = "👩🏿‍🦯‍➡️";
         public const string PersonInMotorizedWheelchair = "🧑‍🦼";
         public const string PersonInMotorizedWheelchair_LightSkinTone = "🧑🏻‍🦼";
         public const string PersonInMotorizedWheelchair_MediumLightSkinTone = "🧑🏼‍🦼";
         public const string PersonInMotorizedWheelchair_MediumSkinTone = "🧑🏽‍🦼";
         public const string PersonInMotorizedWheelchair_MediumDarkSkinTone = "🧑🏾‍🦼";
         public const string PersonInMotorizedWheelchair_DarkSkinTone = "🧑🏿‍🦼";
+        public const string PersonInMotorizedWheelchairFacingRight = "🧑‍🦼‍➡️";
+        public const string PersonInMotorizedWheelchairFacingRight_LightSkinTone = "🧑🏻‍🦼‍➡️";
+        public const string PersonInMotorizedWheelchairFacingRight_MediumLightSkinTone = "🧑🏼‍🦼‍➡️";
+        public const string PersonInMotorizedWheelchairFacingRight_MediumSkinTone = "🧑🏽‍🦼‍➡️";
+        public const string PersonInMotorizedWheelchairFacingRight_MediumDarkSkinTone = "🧑🏾‍🦼‍➡️";
+        public const string PersonInMotorizedWheelchairFacingRight_DarkSkinTone = "🧑🏿‍🦼‍➡️";
         public const string ManInMotorizedWheelchair = "👨‍🦼";
         public const string ManInMotorizedWheelchair_LightSkinTone = "👨🏻‍🦼";
         public const string ManInMotorizedWheelchair_MediumLightSkinTone = "👨🏼‍🦼";
         public const string ManInMotorizedWheelchair_MediumSkinTone = "👨🏽‍🦼";
         public const string ManInMotorizedWheelchair_MediumDarkSkinTone = "👨🏾‍🦼";
         public const string ManInMotorizedWheelchair_DarkSkinTone = "👨🏿‍🦼";
+        public const string ManInMotorizedWheelchairFacingRight = "👨‍🦼‍➡️";
+        public const string ManInMotorizedWheelchairFacingRight_LightSkinTone = "👨🏻‍🦼‍➡️";
+        public const string ManInMotorizedWheelchairFacingRight_MediumLightSkinTone = "👨🏼‍🦼‍➡️";
+        public const string ManInMotorizedWheelchairFacingRight_MediumSkinTone = "👨🏽‍🦼‍➡️";
+        public const string ManInMotorizedWheelchairFacingRight_MediumDarkSkinTone = "👨🏾‍🦼‍➡️";
+        public const string ManInMotorizedWheelchairFacingRight_DarkSkinTone = "👨🏿‍🦼‍➡️";
         public const string WomanInMotorizedWheelchair = "👩‍🦼";
         public const string WomanInMotorizedWheelchair_LightSkinTone = "👩🏻‍🦼";
         public const string WomanInMotorizedWheelchair_MediumLightSkinTone = "👩🏼‍🦼";
         public const string WomanInMotorizedWheelchair_MediumSkinTone = "👩🏽‍🦼";
         public const string WomanInMotorizedWheelchair_MediumDarkSkinTone = "👩🏾‍🦼";
         public const string WomanInMotorizedWheelchair_DarkSkinTone = "👩🏿‍🦼";
+        public const string WomanInMotorizedWheelchairFacingRight = "👩‍🦼‍➡️";
+        public const string WomanInMotorizedWheelchairFacingRight_LightSkinTone = "👩🏻‍🦼‍➡️";
+        public const string WomanInMotorizedWheelchairFacingRight_MediumLightSkinTone = "👩🏼‍🦼‍➡️";
+        public const string WomanInMotorizedWheelchairFacingRight_MediumSkinTone = "👩🏽‍🦼‍➡️";
+        public const string WomanInMotorizedWheelchairFacingRight_MediumDarkSkinTone = "👩🏾‍🦼‍➡️";
+        public const string WomanInMotorizedWheelchairFacingRight_DarkSkinTone = "👩🏿‍🦼‍➡️";
         public const string PersonInManualWheelchair = "🧑‍🦽";
         public const string PersonInManualWheelchair_LightSkinTone = "🧑🏻‍🦽";
         public const string PersonInManualWheelchair_MediumLightSkinTone = "🧑🏼‍🦽";
         public const string PersonInManualWheelchair_MediumSkinTone = "🧑🏽‍🦽";
         public const string PersonInManualWheelchair_MediumDarkSkinTone = "🧑🏾‍🦽";
         public const string PersonInManualWheelchair_DarkSkinTone = "🧑🏿‍🦽";
+        public const string PersonInManualWheelchairFacingRight = "🧑‍🦽‍➡️";
+        public const string PersonInManualWheelchairFacingRight_LightSkinTone = "🧑🏻‍🦽‍➡️";
+        public const string PersonInManualWheelchairFacingRight_MediumLightSkinTone = "🧑🏼‍🦽‍➡️";
+        public const string PersonInManualWheelchairFacingRight_MediumSkinTone = "🧑🏽‍🦽‍➡️";
+        public const string PersonInManualWheelchairFacingRight_MediumDarkSkinTone = "🧑🏾‍🦽‍➡️";
+        public const string PersonInManualWheelchairFacingRight_DarkSkinTone = "🧑🏿‍🦽‍➡️";
         public const string ManInManualWheelchair = "👨‍🦽";
         public const string ManInManualWheelchair_LightSkinTone = "👨🏻‍🦽";
         public const string ManInManualWheelchair_MediumLightSkinTone = "👨🏼‍🦽";
         public const string ManInManualWheelchair_MediumSkinTone = "👨🏽‍🦽";
         public const string ManInManualWheelchair_MediumDarkSkinTone = "👨🏾‍🦽";
         public const string ManInManualWheelchair_DarkSkinTone = "👨🏿‍🦽";
+        public const string ManInManualWheelchairFacingRight = "👨‍🦽‍➡️";
+        public const string ManInManualWheelchairFacingRight_LightSkinTone = "👨🏻‍🦽‍➡️";
+        public const string ManInManualWheelchairFacingRight_MediumLightSkinTone = "👨🏼‍🦽‍➡️";
+        public const string ManInManualWheelchairFacingRight_MediumSkinTone = "👨🏽‍🦽‍➡️";
+        public const string ManInManualWheelchairFacingRight_MediumDarkSkinTone = "👨🏾‍🦽‍➡️";
+        public const string ManInManualWheelchairFacingRight_DarkSkinTone = "👨🏿‍🦽‍➡️";
         public const string WomanInManualWheelchair = "👩‍🦽";
         public const string WomanInManualWheelchair_LightSkinTone = "👩🏻‍🦽";
         public const string WomanInManualWheelchair_MediumLightSkinTone = "👩🏼‍🦽";
         public const string WomanInManualWheelchair_MediumSkinTone = "👩🏽‍🦽";
         public const string WomanInManualWheelchair_MediumDarkSkinTone = "👩🏾‍🦽";
         public const string WomanInManualWheelchair_DarkSkinTone = "👩🏿‍🦽";
+        public const string WomanInManualWheelchairFacingRight = "👩‍🦽‍➡️";
+        public const string WomanInManualWheelchairFacingRight_LightSkinTone = "👩🏻‍🦽‍➡️";
+        public const string WomanInManualWheelchairFacingRight_MediumLightSkinTone = "👩🏼‍🦽‍➡️";
+        public const string WomanInManualWheelchairFacingRight_MediumSkinTone = "👩🏽‍🦽‍➡️";
+        public const string WomanInManualWheelchairFacingRight_MediumDarkSkinTone = "👩🏾‍🦽‍➡️";
+        public const string WomanInManualWheelchairFacingRight_DarkSkinTone = "👩🏿‍🦽‍➡️";
         public const string PersonRunning = "🏃";
         public const string PersonRunning_LightSkinTone = "🏃🏻";
         public const string PersonRunning_MediumLightSkinTone = "🏃🏼";
@@ -1664,6 +1756,24 @@ namespace System.Text
         public const string WomanRunning_MediumSkinTone = "🏃🏽‍♀️";
         public const string WomanRunning_MediumDarkSkinTone = "🏃🏾‍♀️";
         public const string WomanRunning_DarkSkinTone = "🏃🏿‍♀️";
+        public const string PersonRunningFacingRight = "🏃‍➡️";
+        public const string PersonRunningFacingRight_LightSkinTone = "🏃🏻‍➡️";
+        public const string PersonRunningFacingRight_MediumLightSkinTone = "🏃🏼‍➡️";
+        public const string PersonRunningFacingRight_MediumSkinTone = "🏃🏽‍➡️";
+        public const string PersonRunningFacingRight_MediumDarkSkinTone = "🏃🏾‍➡️";
+        public const string PersonRunningFacingRight_DarkSkinTone = "🏃🏿‍➡️";
+        public const string WomanRunningFacingRight = "🏃‍♀️‍➡️";
+        public const string WomanRunningFacingRight_LightSkinTone = "🏃🏻‍♀️‍➡️";
+        public const string WomanRunningFacingRight_MediumLightSkinTone = "🏃🏼‍♀️‍➡️";
+        public const string WomanRunningFacingRight_MediumSkinTone = "🏃🏽‍♀️‍➡️";
+        public const string WomanRunningFacingRight_MediumDarkSkinTone = "🏃🏾‍♀️‍➡️";
+        public const string WomanRunningFacingRight_DarkSkinTone = "🏃🏿‍♀️‍➡️";
+        public const string ManRunningFacingRight = "🏃‍♂️‍➡️";
+        public const string ManRunningFacingRight_LightSkinTone = "🏃🏻‍♂️‍➡️";
+        public const string ManRunningFacingRight_MediumLightSkinTone = "🏃🏼‍♂️‍➡️";
+        public const string ManRunningFacingRight_MediumSkinTone = "🏃🏽‍♂️‍➡️";
+        public const string ManRunningFacingRight_MediumDarkSkinTone = "🏃🏾‍♂️‍➡️";
+        public const string ManRunningFacingRight_DarkSkinTone = "🏃🏿‍♂️‍➡️";
         public const string WomanDancing = "💃";
         public const string WomanDancing_LightSkinTone = "💃🏻";
         public const string WomanDancing_MediumLightSkinTone = "💃🏼";
@@ -2326,6 +2436,10 @@ namespace System.Text
         public const string BustsInSilhouette = "👥";
         public const string PeopleHugging = "🫂";
         public const string Family = "👪";
+        public const string Family_AdultAdultChild = "🧑‍🧑‍🧒";
+        public const string Family_AdultAdultChildChild = "🧑‍🧑‍🧒‍🧒";
+        public const string Family_AdultChild = "🧑‍🧒";
+        public const string Family_AdultChildChild = "🧑‍🧒‍🧒";
         public const string Footprints = "👣";
         #endregion
 
@@ -2417,6 +2531,7 @@ namespace System.Text
         public const string Wing = "🪽";
         public const string BlackBird = "🐦‍⬛";
         public const string Goose = "🪿";
+        public const string Phoenix = "🐦‍🔥";
         public const string Frog = "🐸";
         public const string Crocodile = "🐊";
         public const string Turtle = "🐢";
@@ -2495,6 +2610,7 @@ namespace System.Text
         public const string Watermelon = "🍉";
         public const string Tangerine = "🍊";
         public const string Lemon = "🍋";
+        public const string Lime = "🍋‍🟩";
         public const string Banana = "🍌";
         public const string Pineapple = "🍍";
         public const string Mango = "🥭";
@@ -2526,6 +2642,7 @@ namespace System.Text
         public const string Chestnut = "🌰";
         public const string GingerRoot = "🫚";
         public const string PeaPod = "🫛";
+        public const string BrownMushroom = "🍄‍🟫";
         public const string Bread = "🍞";
         public const string Croissant = "🥐";
         public const string BaguetteBread = "🥖";
@@ -3138,6 +3255,7 @@ namespace System.Text
         public const string BalanceScale = "⚖️";
         public const string WhiteCane = "🦯";
         public const string Link = "🔗";
+        public const string BrokenChain = "⛓️‍💥";
         public const string Chains = "⛓️";
         public const string Hook = "🪝";
         public const string Toolbox = "🧰";
