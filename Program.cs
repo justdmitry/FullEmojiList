@@ -8,7 +8,7 @@
     using System.Net.Http;
     using System.Threading.Tasks;
 
-    public class Program
+    public static class Program
     {
         /// <summary>
         /// Source URL of Unicode emoji text file.
@@ -34,7 +34,7 @@
         {
             using var outputFile = File.CreateText(OutFile);
 
-            var stat = await new Program().RunAsync(outputFile).ConfigureAwait(false);
+            var stat = await Program.RunAsync(outputFile).ConfigureAwait(false);
 
             Console.WriteLine();
             Console.WriteLine("DONE");
@@ -52,13 +52,13 @@
                 .Replace("*", "Asterisk")
                 .Replace(",", string.Empty)
                 .Replace("’", string.Empty)
-                .Split(new[] { ' ', '-', ',', '’', '!', '“', '”', '(', ')', '.' }, StringSplitOptions.RemoveEmptyEntries)
+                .Split([' ', '-', ',', '’', '!', '“', '”', '(', ')', '.'], StringSplitOptions.RemoveEmptyEntries)
                 .Select(x => CultureInfo.InvariantCulture.TextInfo.ToTitleCase(x));
 
             return string.Concat(parts);
         }
 
-        private async Task<(int groupCount, int emojiCount)> RunAsync(TextWriter destination)
+        private static async Task<(int groupCount, int emojiCount)> RunAsync(TextWriter destination)
         {
             using var source = await DownloadAsync().ConfigureAwait(false);
 
@@ -120,7 +120,7 @@
             return (groupCount, emojiCount);
         }
 
-        private async Task<StreamReader> DownloadAsync()
+        private static async Task<StreamReader> DownloadAsync()
         {
             var httpClient = new HttpClient();
             var response = await httpClient.GetAsync(SourceUrl).ConfigureAwait(false);
@@ -129,7 +129,7 @@
             return new StreamReader(stream);
         }
 
-        private async IAsyncEnumerable<(string group, string subgroup, string name, string value)> ParseSourceAsync(StreamReader stream)
+        private static async IAsyncEnumerable<(string group, string subgroup, string name, string value)> ParseSourceAsync(StreamReader stream)
         {
             const string groupPrefix = "# group:";
             const string subgroupPrefix = "# subgroup:";
@@ -138,9 +138,13 @@
             var group = string.Empty;
             var subgroup = string.Empty;
 
-            while (!stream.EndOfStream)
+            while (true)
             {
                 var line = await stream.ReadLineAsync();
+                if (line == null)
+                {
+                    break;
+                }
 
                 if (string.IsNullOrWhiteSpace(line))
                 {
@@ -149,13 +153,13 @@
 
                 if (line.StartsWith(groupPrefix, StringComparison.Ordinal))
                 {
-                    group = FormatName(line.Substring(groupPrefix.Length));
+                    group = FormatName(line[groupPrefix.Length..]);
                     continue;
                 }
 
                 if (line.StartsWith(subgroupPrefix, StringComparison.Ordinal))
                 {
-                    subgroup = FormatName(line.Substring(subgroupPrefix.Length));
+                    subgroup = FormatName(line[subgroupPrefix.Length..]);
                     continue;
                 }
 
@@ -172,9 +176,9 @@
             }
         }
 
-        private (string name, string value)? ParseEmoji(string line)
+        private static (string name, string value)? ParseEmoji(string line)
         {
-            var parts = line.Split(new[] { ';', '#' }, 3);
+            var parts = line.Split([';', '#'], 3);
 
             if (parts[1].Trim() != "fully-qualified")
             {
