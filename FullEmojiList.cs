@@ -2,10 +2,10 @@
 namespace System.Text
 {
     /// <summary>
-    /// Emoji list (from Unicode version 15.1).
+    /// Emoji list (from Unicode version 16.0).
     /// </summary>
     /// <remarks>
-    /// Created from <see href="https://unicode.org/Public/emoji/latest/emoji-test.txt"/> using <see href="https://github.com/justdmitry/FullEmojiList"/> generator at Thu, 19 Dec 2024 13:50:00 GMT.
+    /// Created from <see href="https://unicode.org/Public/emoji/latest/emoji-test.txt"/> using <see href="https://github.com/justdmitry/FullEmojiList"/> generator at Wed, 29 Apr 2026 06:50:53 GMT.
     /// </remarks>
     public static class Emoji
     {
@@ -67,6 +67,7 @@ namespace System.Text
         public const string SleepyFace = "😪";
         public const string DroolingFace = "🤤";
         public const string SleepingFace = "😴";
+        public const string FaceWithBagsUnderEyes = "🫩";
         public const string FaceWithMedicalMask = "😷";
         public const string FaceWithThermometer = "🤒";
         public const string FaceWithHeadBandage = "🤕";
@@ -2441,6 +2442,7 @@ namespace System.Text
         public const string Family_AdultChild = "🧑‍🧒";
         public const string Family_AdultChildChild = "🧑‍🧒‍🧒";
         public const string Footprints = "👣";
+        public const string Fingerprint = "🫆";
         #endregion
 
         #region AnimalsAndNature
@@ -2602,6 +2604,7 @@ namespace System.Text
         public const string EmptyNest = "🪹";
         public const string NestWithEggs = "🪺";
         public const string Mushroom = "🍄";
+        public const string LeaflessTree = "🪾";
         #endregion
 
         #region FoodAndDrink
@@ -2643,6 +2646,7 @@ namespace System.Text
         public const string GingerRoot = "🫚";
         public const string PeaPod = "🫛";
         public const string BrownMushroom = "🍄‍🟫";
+        public const string RootVegetable = "🫜";
         public const string Bread = "🍞";
         public const string Croissant = "🥐";
         public const string BaguetteBread = "🥖";
@@ -3113,16 +3117,17 @@ namespace System.Text
         public const string Headphone = "🎧";
         public const string Radio = "📻";
         public const string Saxophone = "🎷";
+        public const string Trumpet = "🎺";
         public const string Accordion = "🪗";
         public const string Guitar = "🎸";
         public const string MusicalKeyboard = "🎹";
-        public const string Trumpet = "🎺";
         public const string Violin = "🎻";
         public const string Banjo = "🪕";
         public const string Drum = "🥁";
         public const string LongDrum = "🪘";
         public const string Maracas = "🪇";
         public const string Flute = "🪈";
+        public const string Harp = "🪉";
         public const string MobilePhone = "📱";
         public const string MobilePhoneWithArrow = "📲";
         public const string Telephone = "☎️";
@@ -3176,8 +3181,8 @@ namespace System.Text
         public const string BookmarkTabs = "📑";
         public const string Bookmark = "🔖";
         public const string Label = "🏷️";
-        public const string MoneyBag = "💰";
         public const string Coin = "🪙";
+        public const string MoneyBag = "💰";
         public const string YenBanknote = "💴";
         public const string DollarBanknote = "💵";
         public const string EuroBanknote = "💶";
@@ -3261,6 +3266,7 @@ namespace System.Text
         public const string Toolbox = "🧰";
         public const string Magnet = "🧲";
         public const string Ladder = "🪜";
+        public const string Shovel = "🪏";
         public const string Alembic = "⚗️";
         public const string TestTube = "🧪";
         public const string PetriDish = "🧫";
@@ -3449,6 +3455,7 @@ namespace System.Text
         public const string Copyright = "©️";
         public const string Registered = "®️";
         public const string TradeMark = "™️";
+        public const string Splatter = "🫟";
         public const string Keycap_Numbersign = "#️⃣";
         public const string Keycap_Asterisk = "*️⃣";
         public const string Keycap_0 = "0️⃣";
@@ -3597,6 +3604,7 @@ namespace System.Text
         public const string Flag_China = "🇨🇳";
         public const string Flag_Colombia = "🇨🇴";
         public const string Flag_ClippertonIsland = "🇨🇵";
+        public const string Flag_Sark = "🇨🇶";
         public const string Flag_CostaRica = "🇨🇷";
         public const string Flag_Cuba = "🇨🇺";
         public const string Flag_CapeVerde = "🇨🇻";
